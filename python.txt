@@ -1,0 +1,68 @@
+______________________________________PYTHON___________________________----
+
+1)  end = ' ' -> Print in new line
+
+print(lst[i], end=" ")
+____________________________________
+2)""" -> Three Quotes - if you have to put the quotations in between use '''   ''' - 3Quotes
+			Strings in different lines.
+"""
+chandan
+is
+a 
+"good" 
+boy
+"""
+______________________________________
+3)args - > single star (*) This code is inside the function,
+and kwargs -> double star (**) This code is inside the 2 function.
+______________________________________
+5)Lambda expression ->For using simple functions
+________________________________________
+4)Variables -> 
+
+________________________________________
+5):set cursorcolumn -> sets the indentation which is wrong in terminal
+
+_______________________________________
+6)__name__ -> module name
+If the source file is executed as the main program, 
+the interpreter sets the __name__ variable to have a value “__main__”. If this file is being imported from another module, __name__ will be set to the module’s name.
+_______________________________________
+
+7)Terminal -> Indentation
+Shortcut -- Shift >
+__________________________________________
+8)LEGB - Local
+	 Enclosing
+	 Global
+	 Builtins
+__________________________________________
+9)compile -> ctrl + Shift + ~.
+__________________________________________13/02/2025------------------------------
+------------------Abstraction------------------ 
+Phone ringing ut shows only to receive or reject
+But it wil not show the real code
+------------------Polymorphism ----------------
+>>Different Objects behaving difeerently on the same command.
+>>Different people behaving differntly.
+
+
+
+--------------------------------------self---------------------------------------
+>>For Function (self - standard first paramter to the method of the class).
+1st paramter to the method of class is object to the class.
+Example:- 
+class Mom:
+    def walk(self):
+        print("Walk - Mom")
+
+mother=Mom()
+mother.walk()
+
+_____________________________________
+
+pdb 
+1)
+2)
+3)Waiting for you.
