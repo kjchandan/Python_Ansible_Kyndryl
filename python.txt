@@ -21,6 +21,7 @@ ______________________________________
 ________________________________________
 4)Variables -> 
 
+:set nu -> Line number
 ________________________________________
 5):set cursorcolumn -> sets the indentation which is wrong in terminal
 
@@ -39,7 +40,7 @@ __________________________________________
 	 Builtins
 __________________________________________
 9)compile -> ctrl + Shift + ~.
-__________________________________________13/02/2025------------------------------
+-------------------------------------------------------------------13/02/2025---------------------------------------------------------------
 ------------------Abstraction------------------ 
 Phone ringing ut shows only to receive or reject
 But it wil not show the real code
@@ -48,8 +49,7 @@ But it wil not show the real code
 >>Different people behaving differntly.
 
 
-
---------------------------------------self---------------------------------------
+-------------------self--------------
 >>For Function (self - standard first paramter to the method of the class).
 1st paramter to the method of class is object to the class.
 Example:- 
@@ -61,8 +61,30 @@ mother=Mom()
 mother.walk()
 
 _____________________________________
-
 pdb 
 1)
 2)
 3)Waiting for you.
+
+_____________________________________
+->>Set Breakpoints->Pdb
+
+import pdb
+pdb.set_trace()
+
+import pdb
+
+
+Syntax :- (Pdb) b line number - Adds the breakpoint on that line number
+
+(Pdb) b - Break point,
+(Pdb) c - continue(Go for next breakpoint),
+(Pdb) p variables- print variables values,
+(Pdb) bt - backtrace - how did you reach here, (bt/w/where)
+(Pdb) down - newest frame,
+(Pdb) q - Quit the Breakpoint,
+
+_____________________________________
+
+
+

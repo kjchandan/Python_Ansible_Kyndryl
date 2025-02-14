@@ -1,0 +1,11 @@
+---
+students:
+  name:Chandan
+  rollno:20
+  age:21
+  class:12
+  Subjects:
+  -Ansible
+  -Java-Python
+  -DSA
+---
